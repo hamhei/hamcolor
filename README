@@ -1,0 +1,10 @@
+hamcolor:
+  -Shell Script for importing Config Files. (=  I'll color you ham'sham color ^^)
+
+  -usage
+       1. pull from git. "git clone git@github.com:hamhei/hamcolor.git"
+       2. change directory hamcolor's root. "cd hamcolor/"
+       3. run shell script. "source hamcolor.sh"
+       4. i wish you'll be happy (^^w)
+
+**if you are interested, let's create {{your}} color!! (=shell script for importing config files)
