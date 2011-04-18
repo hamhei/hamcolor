@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if [[ -s "/Users/hamhei/.rvm/environments/ruby-1.8.7-p334" ]] ; then
+  source "/Users/hamhei/.rvm/environments/ruby-1.8.7-p334"
+  exec ri "$@"
+else
+  echo "ERROR: Missing RVM environment file: '/Users/hamhei/.rvm/environments/ruby-1.8.7-p334'" >&2
+  exit 1
+fi
+  

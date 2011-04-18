@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+ENV['GEM_HOME']=ENV['GEM_HOME'] || '/Users/hamhei/.rvm/gems/ruby-1.9.1-p431'
+ENV['GEM_PATH']=ENV['GEM_PATH'] || '/Users/hamhei/.rvm/gems/ruby-1.9.1-p431:/Users/hamhei/.rvm/gems/ruby-1.9.1-p431@global'
+ENV['PATH']='/Users/hamhei/.rvm/gems/ruby-1.9.1-p431/bin:/Users/hamhei/.rvm/gems/ruby-1.9.1-p431@global/bin:/Users/hamhei/.rvm/rubies/ruby-1.9.1-p431/bin:' + ENV['PATH']
+
+#
+#   irb.rb - interactive ruby
+#   	$Release Version: 0.9.5 $
+#   	$Revision: 14912 $
+#   	by Keiju ISHITSUKA(keiju@ruby-lang.org)
+#
+
+require "irb"
+
+if __FILE__ == $0
+  IRB.start(__FILE__)
+else
+  # check -e option
+  if /^-e$/ =~ $0
+    IRB.start(__FILE__)
+  else
+    IRB.setup(__FILE__)
+  end
+end

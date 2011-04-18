@@ -1,0 +1,8 @@
+[user]
+	email = hamhei.horiuchi@gmail.com
+	name = hamhei
+[core]
+	pager = less -c
+	editor = emacs
+[color]
+	ui = auto

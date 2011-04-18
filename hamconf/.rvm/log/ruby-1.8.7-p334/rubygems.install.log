@@ -1,0 +1,17 @@
+[2011-03-21 02:44:30] GEM_PATH='/Users/hamhei/.rvm/gems/ruby-1.8.7-p334:/Users/hamhei/.rvm/gems/ruby-1.8.7-p334@global:/Users/hamhei/.rvm/gems/ruby-1.8.7-p334@global' GEM_HOME='/Users/hamhei/.rvm/gems/ruby-1.8.7-p334' /Users/hamhei/.rvm/rubies/ruby-1.8.7-p334/bin/ruby /Users/hamhei/.rvm/src/rubygems-1.6.2/setup.rb
+RubyGems 1.6.2 installed
+
+﻿=== 1.6.2 / 2011-03-08
+
+Bug Fixes:
+
+* require of an activated gem could cause activation conflicts.  Fixes
+  Bug #29056 by Dave Verwer.
+* `gem outdated` now works with up-to-date prerelease gems.
+
+
+------------------------------------------------------------------------------
+
+RubyGems installed the following executables:
+	/Users/hamhei/.rvm/rubies/ruby-1.8.7-p334/bin/gem
+

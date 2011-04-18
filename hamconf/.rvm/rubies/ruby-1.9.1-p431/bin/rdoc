@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+ENV['GEM_HOME']=ENV['GEM_HOME'] || '/Users/hamhei/.rvm/gems/ruby-1.9.1-p431'
+ENV['GEM_PATH']=ENV['GEM_PATH'] || '/Users/hamhei/.rvm/gems/ruby-1.9.1-p431:/Users/hamhei/.rvm/gems/ruby-1.9.1-p431@global'
+ENV['PATH']='/Users/hamhei/.rvm/gems/ruby-1.9.1-p431/bin:/Users/hamhei/.rvm/gems/ruby-1.9.1-p431@global/bin:/Users/hamhei/.rvm/rubies/ruby-1.9.1-p431/bin:' + ENV['PATH']
+
+#
+#  RDoc: Documentation tool for source code
+#        (see lib/rdoc/rdoc.rb for more information)
+#
+#  Copyright (c) 2003 Dave Thomas
+#  Released under the same terms as Ruby
+#
+#  $Revision: 15033 $
+
+require 'rdoc/rdoc'
+
+begin
+  r = RDoc::RDoc.new
+  r.document ARGV
+rescue Interrupt
+  $stderr.puts
+  $stderr.puts "Interrupted"
+rescue RDoc::Error => e
+  $stderr.puts e.message
+  exit 1
+end

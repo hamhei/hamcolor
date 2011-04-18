@@ -1,0 +1,760 @@
+[2011-03-21 02:36:10] make 
+sed 's/{\$([^(){}]*)[^{}]*}//g' common.mk > uncommon.mk
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o main.o -c main.c
+main.c: In function ‘objcdummyfunction’:
+main.c:19: warning: implicit declaration of function ‘objc_msgSend’
+main.c: At top level:
+main.c:19: warning: ‘objcdummyfunction’ defined but not used
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o dln.o -c dln.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o dmydln.o -c dmydln.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o dmyencoding.o -c dmyencoding.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o miniprelude.o -c miniprelude.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o array.o -c array.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o bignum.o -c bignum.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o class.o -c class.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o compar.o -c compar.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o complex.o -c complex.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o dir.o -c dir.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o enum.o -c enum.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o enumerator.o -c enumerator.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o error.o -c error.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o eval.o -c eval.c
+eval.c: In function ‘ruby_cleanup’:
+eval.c:139: warning: passing argument 1 of ‘ruby_init_stack’ discards qualifiers from pointer target type
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o load.o -c load.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o proc.o -c proc.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o file.o -c file.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o gc.o -c gc.c
+gc.c: In function ‘garbage_collect_with_gvl’:
+gc.c:598: warning: cast from pointer to integer of different size
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o hash.o -c hash.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o inits.o -c inits.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o io.o -c io.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o marshal.o -c marshal.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o math.o -c math.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o numeric.o -c numeric.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o object.o -c object.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o pack.o -c pack.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o parse.o -c parse.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o process.o -c process.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o random.o -c random.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o range.o -c range.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o rational.o -c rational.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o re.o -c re.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o regcomp.o -c regcomp.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o regenc.o -c regenc.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o regerror.o -c regerror.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o regexec.o -c regexec.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o regparse.o -c regparse.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o regsyntax.o -c regsyntax.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o ruby.o -c ruby.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o safe.o -c safe.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o signal.o -c signal.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o sprintf.o -c sprintf.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o st.o -c st.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o strftime.o -c strftime.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o string.o -c string.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o struct.o -c struct.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o time.o -c time.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o transcode.o -c transcode.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o util.o -c util.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o variable.o -c variable.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o version.o -c version.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o compile.o -c compile.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o debug.o -c debug.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o iseq.o -c iseq.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o vm.o -c vm.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o vm_dump.o -c vm_dump.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o thread.o -c thread.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o cont.o -c cont.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o ascii.o -c ./enc/ascii.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o us_ascii.o -c ./enc/us_ascii.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o unicode.o -c ./enc/unicode.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o utf_8.o -c ./enc/utf_8.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o newline.o -c newline.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o dmyext.o -c dmyext.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -L.    main.o dmydln.o dmyencoding.o miniprelude.o array.o bignum.o class.o compar.o complex.o dir.o enum.o enumerator.o error.o eval.o load.o proc.o file.o gc.o hash.o inits.o io.o marshal.o math.o numeric.o object.o pack.o parse.o process.o random.o range.o rational.o re.o regcomp.o regenc.o regerror.o regexec.o regparse.o regsyntax.o ruby.o safe.o signal.o sprintf.o st.o strftime.o string.o struct.o time.o transcode.o util.o variable.o version.o compile.o debug.o iseq.o vm.o vm_dump.o thread.o cont.o ascii.o us_ascii.o unicode.o utf_8.o newline.o  dmyext.o -lpthread -ldl -lobjc   -o miniruby
+rbconfig.rb updated
+./miniruby -I./lib -I.ext/common -I./- -r./ext/purelib.rb  ./enc/make_encmake.rb --builtin-encs="ascii.o us_ascii.o unicode.o utf_8.o" --builtin-transes="newline.o" enc.mk 
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o encoding.o -c encoding.c
+./miniruby -I./lib -I.ext/common -I./- -r./ext/purelib.rb  -I. -rrbconfig ./tool/compile_prelude.rb ./prelude.rb ./enc/prelude.rb ./gem_prelude.rb prelude.c
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -I. -I.ext/include/i386-darwin10.6.0 -I./include -I.  -DRUBY_EXPORT -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -o prelude.o -c prelude.c
+ar rcu libruby-static.a dln.o encoding.o array.o bignum.o class.o compar.o complex.o dir.o enum.o enumerator.o error.o eval.o load.o proc.o file.o gc.o hash.o inits.o io.o marshal.o math.o numeric.o object.o pack.o parse.o process.o random.o range.o rational.o re.o regcomp.o regenc.o regerror.o regexec.o regparse.o regsyntax.o ruby.o safe.o signal.o sprintf.o st.o strftime.o string.o struct.o time.o transcode.o util.o variable.o version.o compile.o debug.o iseq.o vm.o vm_dump.o thread.o cont.o ascii.o us_ascii.o unicode.o utf_8.o newline.o  prelude.o dmyext.o
+cc -dynamiclib -undefined suppress -flat_namespace -install_name /Users/hamhei/.rvm/rubies/ruby-1.9.1-p431/lib/libruby.dylib -current_version 1.9.1 -compatibility_version 1.9.1   dln.o encoding.o array.o bignum.o class.o compar.o complex.o dir.o enum.o enumerator.o error.o eval.o load.o proc.o file.o gc.o hash.o inits.o io.o marshal.o math.o numeric.o object.o pack.o parse.o process.o random.o range.o rational.o re.o regcomp.o regenc.o regerror.o regexec.o regparse.o regsyntax.o ruby.o safe.o signal.o sprintf.o st.o strftime.o string.o struct.o time.o transcode.o util.o variable.o version.o compile.o debug.o iseq.o vm.o vm_dump.o thread.o cont.o ascii.o us_ascii.o unicode.o utf_8.o newline.o  prelude.o dmyext.o  -o libruby.1.9.1.dylib
+w -L 'Init_*' libruby.1.9.1.dylib
+w: illegal option -- L
+usage: w [hi] [user ...]
+make: [libruby.1.9.1.dylib] Error 1 (ignored)
+./miniruby -I./lib -I.ext/common -I./- -r./ext/purelib.rb  ./tool/generic_erb.rb -c -o encdb.h ./template/encdb.h.tmpl ./enc enc
+encdb.h unchanged
+make -f enc.mk RUBY="./miniruby -I./lib -I.ext/common -I./- -r./ext/purelib.rb " MINIRUBY="./miniruby -I./lib -I.ext/common -I./- -r./ext/purelib.rb "  enc
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/encdb.o -c ./enc/encdb.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/encdb.bundle enc/encdb.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/big5.o -c ./enc/big5.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/big5.bundle enc/big5.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/cp949.o -c ./enc/cp949.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/cp949.bundle enc/cp949.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/emacs_mule.o -c ./enc/emacs_mule.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/emacs_mule.bundle enc/emacs_mule.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/euc_jp.o -c ./enc/euc_jp.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/euc_jp.bundle enc/euc_jp.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/euc_kr.o -c ./enc/euc_kr.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/euc_kr.bundle enc/euc_kr.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/euc_tw.o -c ./enc/euc_tw.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/euc_tw.bundle enc/euc_tw.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/gb2312.o -c ./enc/gb2312.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/gb2312.bundle enc/gb2312.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/gb18030.o -c ./enc/gb18030.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/gb18030.bundle enc/gb18030.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/gbk.o -c ./enc/gbk.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/gbk.bundle enc/gbk.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_1.o -c ./enc/iso_8859_1.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_1.bundle enc/iso_8859_1.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_2.o -c ./enc/iso_8859_2.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_2.bundle enc/iso_8859_2.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_3.o -c ./enc/iso_8859_3.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_3.bundle enc/iso_8859_3.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_4.o -c ./enc/iso_8859_4.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_4.bundle enc/iso_8859_4.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_5.o -c ./enc/iso_8859_5.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_5.bundle enc/iso_8859_5.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_6.o -c ./enc/iso_8859_6.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_6.bundle enc/iso_8859_6.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_7.o -c ./enc/iso_8859_7.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_7.bundle enc/iso_8859_7.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_8.o -c ./enc/iso_8859_8.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_8.bundle enc/iso_8859_8.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_9.o -c ./enc/iso_8859_9.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_9.bundle enc/iso_8859_9.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_10.o -c ./enc/iso_8859_10.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_10.bundle enc/iso_8859_10.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_11.o -c ./enc/iso_8859_11.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_11.bundle enc/iso_8859_11.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_13.o -c ./enc/iso_8859_13.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_13.bundle enc/iso_8859_13.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_14.o -c ./enc/iso_8859_14.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_14.bundle enc/iso_8859_14.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_15.o -c ./enc/iso_8859_15.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_15.bundle enc/iso_8859_15.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/iso_8859_16.o -c ./enc/iso_8859_16.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/iso_8859_16.bundle enc/iso_8859_16.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/koi8_r.o -c ./enc/koi8_r.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/koi8_r.bundle enc/koi8_r.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/koi8_u.o -c ./enc/koi8_u.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/koi8_u.bundle enc/koi8_u.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/shift_jis.o -c ./enc/shift_jis.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/shift_jis.bundle enc/shift_jis.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/utf_16be.o -c ./enc/utf_16be.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/utf_16be.bundle enc/utf_16be.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/utf_16le.o -c ./enc/utf_16le.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/utf_16le.bundle enc/utf_16le.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/utf_32be.o -c ./enc/utf_32be.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/utf_32be.bundle enc/utf_32be.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/utf_32le.o -c ./enc/utf_32le.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/utf_32le.bundle enc/utf_32le.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/windows_1251.o -c ./enc/windows_1251.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/windows_1251.bundle enc/windows_1251.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+make -f enc.mk RUBY="./miniruby -I./lib -I.ext/common -I./- -r./ext/purelib.rb " MINIRUBY="./miniruby -I./lib -I.ext/common -I./- -r./ext/purelib.rb "  srcs
+make[1]: Nothing to be done for `srcs'.
+./miniruby -I./lib -I.ext/common -I./- -r./ext/purelib.rb  ./tool/generic_erb.rb -c -o transdb.h ./template/transdb.h.tmpl ./enc/trans enc/trans
+transdb.h unchanged
+make -f enc.mk RUBY="./miniruby -I./lib -I.ext/common -I./- -r./ext/purelib.rb " MINIRUBY="./miniruby -I./lib -I.ext/common -I./- -r./ext/purelib.rb "  trans
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/trans/transdb.o -c ./enc/trans/transdb.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/trans/transdb.bundle enc/trans/transdb.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/trans/big5.o -c ./enc/trans/big5.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/trans/big5.bundle enc/trans/big5.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/trans/chinese.o -c ./enc/trans/chinese.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/trans/chinese.bundle enc/trans/chinese.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/trans/escape.o -c ./enc/trans/escape.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/trans/escape.bundle enc/trans/escape.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/trans/gb18030.o -c ./enc/trans/gb18030.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/trans/gb18030.bundle enc/trans/gb18030.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/trans/gbk.o -c ./enc/trans/gbk.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/trans/gbk.bundle enc/trans/gbk.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/trans/iso2022.o -c ./enc/trans/iso2022.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/trans/iso2022.bundle enc/trans/iso2022.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/trans/japanese.o -c ./enc/trans/japanese.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/trans/japanese.bundle enc/trans/japanese.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/trans/japanese_euc.o -c ./enc/trans/japanese_euc.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/trans/japanese_euc.bundle enc/trans/japanese_euc.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/trans/japanese_sjis.o -c ./enc/trans/japanese_sjis.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/trans/japanese_sjis.bundle enc/trans/japanese_sjis.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/trans/korean.o -c ./enc/trans/korean.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/trans/korean.bundle enc/trans/korean.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/trans/single_byte.o -c ./enc/trans/single_byte.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/trans/single_byte.bundle enc/trans/single_byte.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+gcc -I. -I.ext/include/i386-darwin10.6.0 -I./include -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DONIG_ENC_REGISTER=rb_enc_register -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o enc/trans/utf_16_32.o -c ./enc/trans/utf_16_32.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o .ext/i386-darwin10.6.0/enc/trans/utf_16_32.bundle enc/trans/utf_16_32.o -L. -L. -L.     -lruby -lpthread -ldl -lobjc  
+make -f enc.mk RUBY="./miniruby -I./lib -I.ext/common -I./- -r./ext/purelib.rb " MINIRUBY="./miniruby -I./lib -I.ext/common -I./- -r./ext/purelib.rb "  encs
+mkdir -p .ext/i386-darwin10.6.0/enc .ext/i386-darwin10.6.0/enc/trans enc enc/trans
+compiling bigdecimal
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/bigdecimal -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o bigdecimal.o -c bigdecimal.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/bigdecimal.bundle bigdecimal.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+mkdir -p ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/jacobian.rb ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/ludcmp.rb ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/math.rb ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/newton.rb ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/util.rb ../../.ext/common/bigdecimal
+compiling continuation
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/continuation -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o continuation.o -c continuation.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/continuation.bundle continuation.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling coverage
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/coverage -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o coverage.o -c coverage.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/coverage.bundle coverage.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling curses
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/curses -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o curses.o -c curses.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/curses.bundle curses.o -L. -L../.. -L.     -lruby -lncurses -ltermcap  -lpthread -ldl -lobjc  
+compiling dbm
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/dbm -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o dbm.o -c dbm.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/dbm.bundle dbm.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling digest
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/digest -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o digest.o -c digest.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/digest.bundle digest.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+mkdir -p ../../.ext/include/ruby
+mkdir -p ../../.ext/common/digest
+cp ../.././ext/digest/lib/digest/hmac.rb ../../.ext/common/digest
+cp ../.././ext/digest/lib/digest.rb ../../.ext/common
+cp ../.././ext/digest/digest.h ../../.ext/include/ruby
+compiling digest/bubblebabble
+mkdir -p ../../../.ext/i386-darwin10.6.0/digest
+gcc -I. -I../../../.ext/include/i386-darwin10.6.0 -I../../.././include -I../../.././ext/digest/bubblebabble -I../../.././ext/digest/bubblebabble/.. -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o bubblebabble.o -c bubblebabble.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i386-darwin10.6.0/digest/bubblebabble.bundle bubblebabble.o -L. -L../../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling digest/md5
+gcc -I. -I../../../.ext/include/i386-darwin10.6.0 -I../../.././include -I../../.././ext/digest/md5 -I../../.././ext/digest/md5/.. -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o md5init.o -c md5init.c
+gcc -I. -I../../../.ext/include/i386-darwin10.6.0 -I../../.././include -I../../.././ext/digest/md5 -I../../.././ext/digest/md5/.. -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o md5ossl.o -c md5ossl.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i386-darwin10.6.0/digest/md5.bundle md5init.o md5ossl.o -L. -L../../.. -L.     -lruby -lcrypto  -lpthread -ldl -lobjc  
+compiling digest/rmd160
+gcc -I. -I../../../.ext/include/i386-darwin10.6.0 -I../../.././include -I../../.././ext/digest/rmd160 -I../../.././ext/digest/rmd160/.. -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o rmd160init.o -c rmd160init.c
+gcc -I. -I../../../.ext/include/i386-darwin10.6.0 -I../../.././include -I../../.././ext/digest/rmd160 -I../../.././ext/digest/rmd160/.. -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o rmd160ossl.o -c rmd160ossl.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i386-darwin10.6.0/digest/rmd160.bundle rmd160init.o rmd160ossl.o -L. -L../../.. -L.     -lruby -lcrypto  -lpthread -ldl -lobjc  
+compiling digest/sha1
+gcc -I. -I../../../.ext/include/i386-darwin10.6.0 -I../../.././include -I../../.././ext/digest/sha1 -I../../.././ext/digest/sha1/.. -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o sha1init.o -c sha1init.c
+gcc -I. -I../../../.ext/include/i386-darwin10.6.0 -I../../.././include -I../../.././ext/digest/sha1 -I../../.././ext/digest/sha1/.. -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o sha1ossl.o -c sha1ossl.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i386-darwin10.6.0/digest/sha1.bundle sha1init.o sha1ossl.o -L. -L../../.. -L.     -lruby -lcrypto  -lpthread -ldl -lobjc  
+compiling digest/sha2
+gcc -I. -I../../../.ext/include/i386-darwin10.6.0 -I../../.././include -I../../.././ext/digest/sha2 -I../../.././ext/digest/sha2/.. -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o sha2.o -c sha2.c
+gcc -I. -I../../../.ext/include/i386-darwin10.6.0 -I../../.././include -I../../.././ext/digest/sha2 -I../../.././ext/digest/sha2/.. -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o sha2init.o -c sha2init.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i386-darwin10.6.0/digest/sha2.bundle sha2.o sha2init.o -L. -L../../.. -L.     -lruby  -lpthread -ldl -lobjc  
+cp ../../.././ext/digest/sha2/lib/sha2.rb ../../../.ext/common/digest
+compiling dl
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/dl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -fno-defer-pop -fno-omit-frame-pointer  -o cfunc.o -c cfunc.c
+generating callback.h
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/dl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -fno-defer-pop -fno-omit-frame-pointer  -o dl.o -c dl.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/dl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -fno-defer-pop -fno-omit-frame-pointer  -o cptr.o -c cptr.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/dl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -fno-defer-pop -fno-omit-frame-pointer  -o handle.o -c handle.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/dl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -fno-defer-pop -fno-omit-frame-pointer  -o callback-0.o -c callback-0.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/dl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -fno-defer-pop -fno-omit-frame-pointer  -o callback-1.o -c callback-1.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/dl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -fno-defer-pop -fno-omit-frame-pointer  -o callback-2.o -c callback-2.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/dl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -fno-defer-pop -fno-omit-frame-pointer  -o callback-3.o -c callback-3.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/dl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -fno-defer-pop -fno-omit-frame-pointer  -o callback-4.o -c callback-4.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/dl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -fno-defer-pop -fno-omit-frame-pointer  -o callback-5.o -c callback-5.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/dl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -fno-defer-pop -fno-omit-frame-pointer  -o callback-6.o -c callback-6.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/dl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -fno-defer-pop -fno-omit-frame-pointer  -o callback-7.o -c callback-7.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/dl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -fno-defer-pop -fno-omit-frame-pointer  -o callback-8.o -c callback-8.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/dl.bundle cfunc.o dl.o cptr.o handle.o callback-0.o callback-1.o callback-2.o callback-3.o callback-4.o callback-5.o callback-6.o callback-7.o callback-8.o -L. -L../.. -L.     -lruby -ldl  -lpthread -ldl -lobjc  
+mkdir -p ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/callback.rb ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/cparser.rb ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/func.rb ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/import.rb ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/pack.rb ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/stack.rb ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/struct.rb ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/types.rb ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/value.rb ../../.ext/common/dl
+cp ../.././ext/dl/dl.h ../../.ext/include/ruby
+compiling dl/win32
+compiling etc
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/etc -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o etc.o -c etc.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/etc.bundle etc.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling fcntl
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/fcntl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o fcntl.o -c fcntl.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/fcntl.bundle fcntl.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling fiber
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/fiber -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o fiber.o -c fiber.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/fiber.bundle fiber.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling gdbm
+compiling iconv
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/iconv -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o iconv.o -c iconv.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/iconv.bundle iconv.o -L. -L../.. -L.     -lruby -liconv  -lpthread -ldl -lobjc  
+compiling io/wait
+mkdir -p ../../../.ext/i386-darwin10.6.0/io
+gcc -I. -I../../../.ext/include/i386-darwin10.6.0 -I../../.././include -I../../.././ext/io/wait -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o wait.o -c wait.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i386-darwin10.6.0/io/wait.bundle wait.o -L. -L../../.. -L.     -lruby  -lpthread -ldl -lobjc  
+mkdir -p ../../../.ext/common/io
+cp ../../.././ext/io/wait/lib/nonblock.rb ../../../.ext/common/io
+compiling json
+mkdir -p ../../.ext/common/json/add
+cp ../.././ext/json/lib/json/add/core.rb ../../.ext/common/json/add
+cp ../.././ext/json/lib/json/add/rails.rb ../../.ext/common/json/add
+cp ../.././ext/json/lib/json/common.rb ../../.ext/common/json
+cp ../.././ext/json/lib/json/editor.rb ../../.ext/common/json
+cp ../.././ext/json/lib/json/ext.rb ../../.ext/common/json
+cp ../.././ext/json/lib/json/version.rb ../../.ext/common/json
+cp ../.././ext/json/lib/json.rb ../../.ext/common
+compiling json/ext/generator
+mkdir -p ../../../../.ext/i386-darwin10.6.0/json/ext
+gcc -I. -I../../../../.ext/include/i386-darwin10.6.0 -I../../../.././include -I../../../.././ext/json/ext/generator -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -Wall  -o generator.o -c generator.c
+gcc -I. -I../../../../.ext/include/i386-darwin10.6.0 -I../../../.././include -I../../../.././ext/json/ext/generator -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -Wall  -o unicode.o -c unicode.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../../.ext/i386-darwin10.6.0/json/ext/generator.bundle generator.o unicode.o -L. -L../../../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling json/ext/parser
+gcc -I. -I../../../../.ext/include/i386-darwin10.6.0 -I../../../.././include -I../../../.././ext/json/ext/parser -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -Wall  -o parser.o -c parser.c
+gcc -I. -I../../../../.ext/include/i386-darwin10.6.0 -I../../../.././include -I../../../.././ext/json/ext/parser -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common -Wall  -o unicode.o -c unicode.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../../.ext/i386-darwin10.6.0/json/ext/parser.bundle parser.o unicode.o -L. -L../../../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling mathn/complex
+mkdir -p ../../../.ext/i386-darwin10.6.0/mathn
+gcc -I. -I../../../.ext/include/i386-darwin10.6.0 -I../../.././include -I../../.././ext/mathn/complex -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o complex.o -c complex.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i386-darwin10.6.0/mathn/complex.bundle complex.o -L. -L../../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling mathn/rational
+gcc -I. -I../../../.ext/include/i386-darwin10.6.0 -I../../.././include -I../../.././ext/mathn/rational -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o rational.o -c rational.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i386-darwin10.6.0/mathn/rational.bundle rational.o -L. -L../../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling nkf
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/nkf -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o nkf.o -c nkf.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/nkf.bundle nkf.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+cp ../.././ext/nkf/lib/kconv.rb ../../.ext/common
+compiling openssl
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o openssl_missing.o -c openssl_missing.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl.o -c ossl.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_asn1.o -c ossl_asn1.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_bio.o -c ossl_bio.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_bn.o -c ossl_bn.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_cipher.o -c ossl_cipher.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_config.o -c ossl_config.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_digest.o -c ossl_digest.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_engine.o -c ossl_engine.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_hmac.o -c ossl_hmac.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_ns_spki.o -c ossl_ns_spki.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_ocsp.o -c ossl_ocsp.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_pkcs12.o -c ossl_pkcs12.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_pkcs5.o -c ossl_pkcs5.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_pkcs7.o -c ossl_pkcs7.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_pkey.o -c ossl_pkey.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_pkey_dh.o -c ossl_pkey_dh.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_pkey_dsa.o -c ossl_pkey_dsa.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_pkey_ec.o -c ossl_pkey_ec.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_pkey_rsa.o -c ossl_pkey_rsa.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_rand.o -c ossl_rand.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_ssl.o -c ossl_ssl.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_ssl_session.o -c ossl_ssl_session.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_x509.o -c ossl_x509.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_x509attr.o -c ossl_x509attr.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_x509cert.o -c ossl_x509cert.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_x509crl.o -c ossl_x509crl.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_x509ext.o -c ossl_x509ext.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_x509name.o -c ossl_x509name.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_x509req.o -c ossl_x509req.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_x509revoked.o -c ossl_x509revoked.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ossl_x509store.o -c ossl_x509store.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/openssl.bundle openssl_missing.o ossl.o ossl_asn1.o ossl_bio.o ossl_bn.o ossl_cipher.o ossl_config.o ossl_digest.o ossl_engine.o ossl_hmac.o ossl_ns_spki.o ossl_ocsp.o ossl_pkcs12.o ossl_pkcs5.o ossl_pkcs7.o ossl_pkey.o ossl_pkey_dh.o ossl_pkey_dsa.o ossl_pkey_ec.o ossl_pkey_rsa.o ossl_rand.o ossl_ssl.o ossl_ssl_session.o ossl_x509.o ossl_x509attr.o ossl_x509cert.o ossl_x509crl.o ossl_x509ext.o ossl_x509name.o ossl_x509req.o ossl_x509revoked.o ossl_x509store.o -L. -L../.. -L.     -lruby -lssl -lcrypto  -lpthread -ldl -lobjc  
+mkdir -p ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/bn.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/buffering.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/cipher.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/digest.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/ssl.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/x509.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl.rb ../../.ext/common
+compiling pty
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/pty -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o pty.o -c pty.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/pty.bundle pty.o -L. -L../.. -L.     -lruby -lutil  -lpthread -ldl -lobjc  
+cp ../.././ext/pty/lib/expect.rb ../../.ext/common
+compiling racc/cparse
+mkdir -p ../../../.ext/i386-darwin10.6.0/racc
+gcc -I. -I../../../.ext/include/i386-darwin10.6.0 -I../../.././include -I../../.././ext/racc/cparse -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o cparse.o -c cparse.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i386-darwin10.6.0/racc/cparse.bundle cparse.o -L. -L../../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling readline
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/readline -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o readline.o -c readline.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/readline.bundle readline.o -L. -L../.. -L.     -lruby -lreadline -lncurses  -lpthread -ldl -lobjc  
+compiling ripper
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/ripper -I../.. -I../../. -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o ripper.o -c ripper.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/ripper.bundle ripper.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+mkdir -p ../../.ext/common/ripper
+cp ../.././ext/ripper/lib/ripper/core.rb ../../.ext/common/ripper
+cp ../.././ext/ripper/lib/ripper/filter.rb ../../.ext/common/ripper
+cp ../.././ext/ripper/lib/ripper/lexer.rb ../../.ext/common/ripper
+cp ../.././ext/ripper/lib/ripper/sexp.rb ../../.ext/common/ripper
+cp ../.././ext/ripper/lib/ripper.rb ../../.ext/common
+../../miniruby -I'../..' -I'../.././lib' -I'../../.ext/i386-darwin10.6.0' -I'../../.ext/common' -I./- -I'../.././ext' -rpurelib.rb ../.././ext/ripper/tools/generate.rb --mode=check --ids1src=../.././parse.y --ids2src=../.././ext/ripper/eventids2.c
+compiling sdbm
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/sdbm -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o _sdbm.o -c _sdbm.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/sdbm -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o init.o -c init.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/sdbm.bundle _sdbm.o init.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling socket
+generating constants.h
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/socket -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o socket.o -c socket.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/socket.bundle socket.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling stringio
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/stringio -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o stringio.o -c stringio.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/stringio.bundle stringio.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling strscan
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/strscan -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o strscan.o -c strscan.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/strscan.bundle strscan.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling syck
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/syck -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o bytecode.o -c bytecode.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/syck -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o emitter.o -c emitter.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/syck -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o gram.o -c gram.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/syck -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o handler.o -c handler.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/syck -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o implicit.o -c implicit.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/syck -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o node.o -c node.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/syck -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o rubyext.o -c rubyext.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/syck -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o syck.o -c syck.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/syck -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o token.o -c token.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/syck -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o yaml2byte.o -c yaml2byte.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/syck.bundle bytecode.o emitter.o gram.o handler.o implicit.o node.o rubyext.o syck.o token.o yaml2byte.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling syslog
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/syslog -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o syslog.o -c syslog.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/syslog.bundle syslog.o -L. -L../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling tk
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/tk -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DWITH_TCL_ENABLE_THREAD=1 -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o stubs.o -c stubs.c
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/tk -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DWITH_TCL_ENABLE_THREAD=1 -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o tcltklib.o -c tcltklib.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/tcltklib.bundle stubs.o tcltklib.o -L. -L../.. -L/usr/X11/lib -L.     -lruby -ltk8.5 -ltcl8.5 -lX11 -ldl  -lpthread -ldl -lobjc  
+mkdir -p ../../.ext/common/tk
+mkdir -p ../../.ext/common/tkextlib/blt
+mkdir -p ../../.ext/common/tkextlib/blt/tile
+mkdir -p ../../.ext/common/tkextlib/bwidget
+mkdir -p ../../.ext/common/tkextlib/ICONS
+mkdir -p ../../.ext/common/tkextlib/itcl
+mkdir -p ../../.ext/common/tkextlib/itk
+mkdir -p ../../.ext/common/tkextlib/iwidgets
+mkdir -p ../../.ext/common/tkextlib/tcllib
+mkdir -p ../../.ext/common/tkextlib/tclx
+mkdir -p ../../.ext/common/tkextlib/tile
+mkdir -p ../../.ext/common/tkextlib/tkDND
+mkdir -p ../../.ext/common/tkextlib/tkHTML
+mkdir -p ../../.ext/common/tkextlib/tkimg
+mkdir -p ../../.ext/common/tkextlib/tktable
+mkdir -p ../../.ext/common/tkextlib/tktrans
+mkdir -p ../../.ext/common/tkextlib/treectrl
+mkdir -p ../../.ext/common/tkextlib/trofs
+mkdir -p ../../.ext/common/tkextlib/vu
+mkdir -p ../../.ext/common/tkextlib/winico
+cp ../.././ext/tk/lib/multi-tk.rb ../../.ext/common
+cp ../.././ext/tk/lib/remote-tk.rb ../../.ext/common
+cp ../.././ext/tk/lib/tcltk.rb ../../.ext/common
+cp ../.././ext/tk/lib/tk.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkafter.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkbgerror.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkcanvas.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkclass.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkconsole.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkdialog.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkentry.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkfont.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkmacpkg.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkmenubar.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkmngfocus.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkpalette.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkscrollbox.rb ../../.ext/common
+cp ../.././ext/tk/lib/tktext.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkvirtevent.rb ../../.ext/common
+cp ../.././ext/tk/lib/tkwinpkg.rb ../../.ext/common
+cp ../.././ext/tk/lib/tk/after.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/autoload.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/bgerror.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/bindtag.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/button.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/canvas.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/canvastag.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/checkbutton.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/clipboard.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/clock.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/composite.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/console.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/dialog.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/encodedstr.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/entry.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/event.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/font.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/frame.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/grid.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/image.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/itemconfig.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/itemfont.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/kinput.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/label.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/labelframe.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/listbox.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/macpkg.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/menu.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/menubar.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/menuspec.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/message.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/mngfocus.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/msgcat.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/namespace.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/optiondb.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/optionobj.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/pack.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/package.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/palette.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/panedwindow.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/place.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/radiobutton.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/root.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/scale.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/scrollable.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/scrollbar.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/scrollbox.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/selection.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/spinbox.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/tagfont.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/text.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/textimage.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/textmark.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/texttag.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/textwindow.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/timer.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/toplevel.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/ttk_selector.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/txtwin_abst.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/validation.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/variable.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/virtevent.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/winfo.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/winpkg.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/wm.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tk/xim.rb ../../.ext/common/tk
+cp ../.././ext/tk/lib/tkextlib/blt/barchart.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/bitmap.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/busy.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/component.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/container.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/cutbuffer.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/dragdrop.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/eps.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/graph.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/htext.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/setup.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/spline.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/stripchart.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/table.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/tabnotebook.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/tabset.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/ted.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/tile.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/tree.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/treeview.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/unix_dnd.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/vector.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/watch.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/win_printer.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/winop.rb ../../.ext/common/tkextlib/blt
+cp ../.././ext/tk/lib/tkextlib/blt/tile/button.rb ../../.ext/common/tkextlib/blt/tile
+cp ../.././ext/tk/lib/tkextlib/blt/tile/checkbutton.rb ../../.ext/common/tkextlib/blt/tile
+cp ../.././ext/tk/lib/tkextlib/blt/tile/frame.rb ../../.ext/common/tkextlib/blt/tile
+cp ../.././ext/tk/lib/tkextlib/blt/tile/label.rb ../../.ext/common/tkextlib/blt/tile
+cp ../.././ext/tk/lib/tkextlib/blt/tile/radiobutton.rb ../../.ext/common/tkextlib/blt/tile
+cp ../.././ext/tk/lib/tkextlib/blt/tile/scrollbar.rb ../../.ext/common/tkextlib/blt/tile
+cp ../.././ext/tk/lib/tkextlib/blt/tile/toplevel.rb ../../.ext/common/tkextlib/blt/tile
+cp ../.././ext/tk/lib/tkextlib/blt.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/bwidget.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/ICONS.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/itcl.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/itk.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/iwidgets.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/pkg_checker.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/setup.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/tcllib.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/tclx.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/tile.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/tkDND.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/tkHTML.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/tkimg.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/tktable.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/tktrans.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/treectrl.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/trofs.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/version.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/vu.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/winico.rb ../../.ext/common/tkextlib
+cp ../.././ext/tk/lib/tkextlib/bwidget/arrowbutton.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/bitmap.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/button.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/buttonbox.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/combobox.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/dialog.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/dragsite.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/dropsite.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/dynamichelp.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/entry.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/label.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/labelentry.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/labelframe.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/listbox.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/mainframe.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/messagedlg.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/notebook.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/pagesmanager.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/panedwindow.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/panelframe.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/passwddlg.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/progressbar.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/progressdlg.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/scrollableframe.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/scrolledwindow.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/scrollview.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/selectcolor.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/selectfont.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/separator.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/setup.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/spinbox.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/statusbar.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/titleframe.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/tree.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/bwidget/widget.rb ../../.ext/common/tkextlib/bwidget
+cp ../.././ext/tk/lib/tkextlib/ICONS/icons.rb ../../.ext/common/tkextlib/ICONS
+cp ../.././ext/tk/lib/tkextlib/ICONS/setup.rb ../../.ext/common/tkextlib/ICONS
+cp ../.././ext/tk/lib/tkextlib/itcl/incr_tcl.rb ../../.ext/common/tkextlib/itcl
+cp ../.././ext/tk/lib/tkextlib/itcl/setup.rb ../../.ext/common/tkextlib/itcl
+cp ../.././ext/tk/lib/tkextlib/itk/incr_tk.rb ../../.ext/common/tkextlib/itk
+cp ../.././ext/tk/lib/tkextlib/itk/setup.rb ../../.ext/common/tkextlib/itk
+cp ../.././ext/tk/lib/tkextlib/iwidgets/buttonbox.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/calendar.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/canvasprintbox.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/canvasprintdialog.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/checkbox.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/combobox.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/dateentry.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/datefield.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/dialog.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/dialogshell.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/disjointlistbox.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/entryfield.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/extbutton.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/extfileselectionbox.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/extfileselectiondialog.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/feedback.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/fileselectionbox.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/fileselectiondialog.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/finddialog.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/hierarchy.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/hyperhelp.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/labeledframe.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/labeledwidget.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/mainwindow.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/menubar.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/messagebox.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/messagedialog.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/notebook.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/optionmenu.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/panedwindow.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/promptdialog.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/pushbutton.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/radiobox.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/scopedobject.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/scrolledcanvas.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/scrolledframe.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/scrolledhtml.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/scrolledlistbox.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/scrolledtext.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/scrolledwidget.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/selectionbox.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/selectiondialog.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/setup.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/shell.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/spindate.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/spinint.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/spinner.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/spintime.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/tabnotebook.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/tabset.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/timeentry.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/timefield.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/toolbar.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/iwidgets/watch.rb ../../.ext/common/tkextlib/iwidgets
+cp ../.././ext/tk/lib/tkextlib/tcllib/autoscroll.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/ctext.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/cursor.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/datefield.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/dialog.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/getstring.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/history.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/ico.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/ip_entry.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/panelframe.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/plotchart.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/ruler.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/screenruler.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/scrollwin.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/setup.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/style.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/superframe.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/swaplist.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/tablelist.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/tablelist_core.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/tablelist_tile.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/tkpiechart.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/tooltip.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tcllib/widget.rb ../../.ext/common/tkextlib/tcllib
+cp ../.././ext/tk/lib/tkextlib/tclx/setup.rb ../../.ext/common/tkextlib/tclx
+cp ../.././ext/tk/lib/tkextlib/tclx/tclx.rb ../../.ext/common/tkextlib/tclx
+cp ../.././ext/tk/lib/tkextlib/tile/dialog.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/setup.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/sizegrip.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/style.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tbutton.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tcheckbutton.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tcombobox.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tentry.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tframe.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tlabel.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tlabelframe.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tmenubutton.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tnotebook.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tpaned.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tprogressbar.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tradiobutton.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/treeview.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tscale.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tscrollbar.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tseparator.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tile/tsquare.rb ../../.ext/common/tkextlib/tile
+cp ../.././ext/tk/lib/tkextlib/tkDND/setup.rb ../../.ext/common/tkextlib/tkDND
+cp ../.././ext/tk/lib/tkextlib/tkDND/shape.rb ../../.ext/common/tkextlib/tkDND
+cp ../.././ext/tk/lib/tkextlib/tkDND/tkdnd.rb ../../.ext/common/tkextlib/tkDND
+cp ../.././ext/tk/lib/tkextlib/tkHTML/htmlwidget.rb ../../.ext/common/tkextlib/tkHTML
+cp ../.././ext/tk/lib/tkextlib/tkHTML/setup.rb ../../.ext/common/tkextlib/tkHTML
+cp ../.././ext/tk/lib/tkextlib/tkimg/bmp.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/gif.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/ico.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/jpeg.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/pcx.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/pixmap.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/png.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/ppm.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/ps.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/setup.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/sgi.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/sun.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/tga.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/tiff.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/window.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/xbm.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tkimg/xpm.rb ../../.ext/common/tkextlib/tkimg
+cp ../.././ext/tk/lib/tkextlib/tktable/setup.rb ../../.ext/common/tkextlib/tktable
+cp ../.././ext/tk/lib/tkextlib/tktable/tktable.rb ../../.ext/common/tkextlib/tktable
+cp ../.././ext/tk/lib/tkextlib/tktrans/setup.rb ../../.ext/common/tkextlib/tktrans
+cp ../.././ext/tk/lib/tkextlib/tktrans/tktrans.rb ../../.ext/common/tkextlib/tktrans
+cp ../.././ext/tk/lib/tkextlib/treectrl/setup.rb ../../.ext/common/tkextlib/treectrl
+cp ../.././ext/tk/lib/tkextlib/treectrl/tktreectrl.rb ../../.ext/common/tkextlib/treectrl
+cp ../.././ext/tk/lib/tkextlib/trofs/setup.rb ../../.ext/common/tkextlib/trofs
+cp ../.././ext/tk/lib/tkextlib/trofs/trofs.rb ../../.ext/common/tkextlib/trofs
+cp ../.././ext/tk/lib/tkextlib/vu/bargraph.rb ../../.ext/common/tkextlib/vu
+cp ../.././ext/tk/lib/tkextlib/vu/charts.rb ../../.ext/common/tkextlib/vu
+cp ../.././ext/tk/lib/tkextlib/vu/dial.rb ../../.ext/common/tkextlib/vu
+cp ../.././ext/tk/lib/tkextlib/vu/pie.rb ../../.ext/common/tkextlib/vu
+cp ../.././ext/tk/lib/tkextlib/vu/setup.rb ../../.ext/common/tkextlib/vu
+cp ../.././ext/tk/lib/tkextlib/vu/spinbox.rb ../../.ext/common/tkextlib/vu
+cp ../.././ext/tk/lib/tkextlib/winico/setup.rb ../../.ext/common/tkextlib/winico
+cp ../.././ext/tk/lib/tkextlib/winico/winico.rb ../../.ext/common/tkextlib/winico
+cp ../.././ext/tk/lib/tkextlib/SUPPORT_STATUS ../../.ext/common/tkextlib
+compiling tk/tkutil
+gcc -I. -I../../../.ext/include/i386-darwin10.6.0 -I../../.././include -I../../.././ext/tk/tkutil -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o tkutil.o -c tkutil.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i386-darwin10.6.0/tkutil.bundle tkutil.o -L. -L../../.. -L.     -lruby  -lpthread -ldl -lobjc  
+compiling win32ole
+compiling zlib
+gcc -I. -I../../.ext/include/i386-darwin10.6.0 -I../.././include -I../.././ext/zlib -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common  -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -o zlib.o -c zlib.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i386-darwin10.6.0/zlib.bundle zlib.o -L. -L../.. -L.     -lruby -lz  -lpthread -ldl -lobjc  
+making ruby
+gcc -O2 -g -Wall -Wno-parentheses  -fno-common -pipe -fno-common  -L.    main.o  -lruby -lpthread -ldl -lobjc   -o ruby

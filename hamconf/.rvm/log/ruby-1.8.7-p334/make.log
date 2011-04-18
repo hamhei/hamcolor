@@ -1,0 +1,338 @@
+[2011-03-21 02:42:55] make 
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c array.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c bignum.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c class.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c compar.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c dir.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c dln.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c enum.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c enumerator.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c error.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c eval.c
+eval.c: In function ‘rb_eval_string_wrap’:
+eval.c:1744: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘rb_eval_cmd’:
+eval.c:1885: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘call_trace_func’:
+eval.c:2736: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘rb_raise_jump’:
+eval.c:4770: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘method_missing’:
+eval.c:5736: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘rb_call0’:
+eval.c:5894: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘rb_f_eval’:
+eval.c:6696: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘exec_under’:
+eval.c:6720: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘rb_load’:
+eval.c:7036: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘call_end_proc’:
+eval.c:8071: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘rb_f_END’:
+eval.c:8084: warning: assignment discards qualifiers from pointer target type
+eval.c: In function ‘mproc’:
+eval.c:9860: warning: assignment discards qualifiers from pointer target type
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c file.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c gc.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c hash.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c inits.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c io.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c marshal.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c math.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c numeric.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c object.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c pack.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c parse.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c process.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c prec.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c random.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c range.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c re.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c regex.c
+regex.c: In function ‘ruby_re_compile_pattern’:
+regex.c:1367: warning: format ‘%d’ expects type ‘int’, but argument 7 has type ‘long int’
+regex.c:2031: warning: format ‘%d’ expects type ‘int’, but argument 6 has type ‘long int’
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c ruby.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c signal.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c sprintf.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c st.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c string.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c struct.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c time.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c util.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c variable.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c version.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c dmyext.c
+ar rcu libruby-static.a array.o bignum.o class.o compar.o dir.o dln.o enum.o enumerator.o error.o eval.o file.o gc.o hash.o inits.o io.o marshal.o math.o numeric.o object.o pack.o parse.o process.o prec.o random.o range.o re.o regex.o ruby.o signal.o sprintf.o st.o string.o struct.o time.o util.o variable.o version.o  dmyext.o
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c main.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -I. -I.  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -c dmydln.c
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -L.    main.o dmydln.o libruby-static.a -ldl -lobjc   -o miniruby
+rbconfig.rb updated
+cc -dynamiclib -undefined suppress -flat_namespace -install_name /Users/hamhei/.rvm/rubies/ruby-1.8.7-p334/lib/libruby.dylib -current_version 1.8.7 -compatibility_version 1.8   array.o bignum.o class.o compar.o dir.o dln.o enum.o enumerator.o error.o eval.o file.o gc.o hash.o inits.o io.o marshal.o math.o numeric.o object.o pack.o parse.o process.o prec.o random.o range.o re.o regex.o ruby.o signal.o sprintf.o st.o string.o struct.o time.o util.o variable.o version.o  dmyext.o  -o libruby.1.8.7.dylib
+compiling Win32API
+compiling bigdecimal
+mkdir -p ../../.ext/i686-darwin10.6.0
+gcc -I. -I../.. -I../../. -I../.././ext/bigdecimal -DBASE=1000000000UL -DBASE_FIG=9  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c bigdecimal.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/bigdecimal.bundle bigdecimal.o -L. -L../.. -L.     -lruby  -ldl -lobjc  
+mkdir -p ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/jacobian.rb ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/ludcmp.rb ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/math.rb ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/newton.rb ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/util.rb ../../.ext/common/bigdecimal
+compiling curses
+gcc -I. -I../.. -I../../. -I../.././ext/curses -DHAVE_NCURSES_H -DHAVE_BEEP -DHAVE_BKGD -DHAVE_BKGDSET -DHAVE_CURS_SET -DHAVE_DELETELN -DHAVE_DOUPDATE -DHAVE_FLASH -DHAVE_GETBKGD -DHAVE_GETNSTR -DHAVE_ISENDWIN -DHAVE_KEYNAME -DHAVE_KEYPAD -DHAVE_RESIZETERM -DHAVE_SCRL -DHAVE_SETSCRREG -DHAVE_UNGETCH -DHAVE_WATTROFF -DHAVE_WATTRON -DHAVE_WATTRSET -DHAVE_WBKGD -DHAVE_WBKGDSET -DHAVE_WDELETELN -DHAVE_WGETNSTR -DHAVE_WRESIZE -DHAVE_WSCRL -DHAVE_WSETSCRREG -DHAVE_DEF_PROG_MODE -DHAVE_RESET_PROG_MODE -DHAVE_TIMEOUT -DHAVE_WTIMEOUT -DHAVE_NODELAY -DHAVE_INIT_COLOR -DHAVE_WCOLOR_SET -D_XOPEN_SOURCE_EXTENDED  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c curses.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/curses.bundle curses.o -L. -L../.. -L.     -lruby -lncurses -ltermcap  -ldl -lobjc  
+compiling dbm
+gcc -I. -I../.. -I../../. -I../.././ext/dbm -DHAVE_DBM_OPEN -DHAVE_TYPE_DBM -DHAVE_DBM_CLEARERR -DDBM_HDR="<ndbm.h>" -DHAVE_SYS_CDEFS_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c dbm.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/dbm.bundle dbm.o -L. -L../.. -L.     -lruby  -ldl -lobjc  
+compiling digest
+gcc -I. -I../.. -I../../. -I../.././ext/digest -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c digest.c
+digest.c: In function ‘rb_digest_instance_inspect’:
+digest.c:280: warning: assignment discards qualifiers from pointer target type
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/digest.bundle digest.o -L. -L../.. -L.     -lruby  -ldl -lobjc  
+cp ../.././ext/digest/lib/digest.rb ../../.ext/common
+cp ../.././ext/digest/lib/md5.rb ../../.ext/common
+cp ../.././ext/digest/lib/sha1.rb ../../.ext/common
+cp ../.././ext/digest/digest.h ../../.ext/i686-darwin10.6.0
+compiling digest/bubblebabble
+mkdir -p ../../../.ext/i686-darwin10.6.0/digest
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/bubblebabble -I../../.././ext/digest/bubblebabble/.. -DHAVE_CONFIG_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c bubblebabble.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i686-darwin10.6.0/digest/bubblebabble.bundle bubblebabble.o -L. -L../../.. -L.     -lruby  -ldl -lobjc  
+compiling digest/md5
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/md5 -I../../.././ext/digest/md5/.. -DHAVE_CONFIG_H -DHAVE_OPENSSL_MD5_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c md5init.c
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/md5 -I../../.././ext/digest/md5/.. -DHAVE_CONFIG_H -DHAVE_OPENSSL_MD5_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c md5ossl.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i686-darwin10.6.0/digest/md5.bundle md5init.o md5ossl.o -L. -L../../.. -L.     -lruby -lcrypto  -ldl -lobjc  
+compiling digest/rmd160
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/rmd160 -I../../.././ext/digest/rmd160/.. -DNDEBUG -DHAVE_CONFIG_H -DHAVE_OPENSSL_RIPEMD_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c rmd160init.c
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/rmd160 -I../../.././ext/digest/rmd160/.. -DNDEBUG -DHAVE_CONFIG_H -DHAVE_OPENSSL_RIPEMD_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c rmd160ossl.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i686-darwin10.6.0/digest/rmd160.bundle rmd160init.o rmd160ossl.o -L. -L../../.. -L.     -lruby -lcrypto  -ldl -lobjc  
+compiling digest/sha1
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/sha1 -I../../.././ext/digest/sha1/.. -DHAVE_CONFIG_H -DHAVE_OPENSSL_SHA_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c sha1init.c
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/sha1 -I../../.././ext/digest/sha1/.. -DHAVE_CONFIG_H -DHAVE_OPENSSL_SHA_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c sha1ossl.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i686-darwin10.6.0/digest/sha1.bundle sha1init.o sha1ossl.o -L. -L../../.. -L.     -lruby -lcrypto  -ldl -lobjc  
+compiling digest/sha2
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/sha2 -I../../.././ext/digest/sha2/.. -DHAVE_CONFIG_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H -DHAVE_TYPE_UINT64_T  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c sha2.c
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/sha2 -I../../.././ext/digest/sha2/.. -DHAVE_CONFIG_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H -DHAVE_TYPE_UINT64_T  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c sha2init.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i686-darwin10.6.0/digest/sha2.bundle sha2.o sha2init.o -L. -L../../.. -L.     -lruby  -ldl -lobjc  
+mkdir -p ../../../.ext/common/digest
+cp ../../.././ext/digest/sha2/lib/sha2.rb ../../../.ext/common/digest
+compiling dl
+Generating callback.func
+Generating cbtable.func
+gcc -I. -I../.. -I../../. -I../.././ext/dl -DHAVE_DLFCN_H -DHAVE_DLOPEN -DHAVE_DLCLOSE -DHAVE_DLSYM -DHAVE_DLERROR  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -I. -fno-common -g -O2  -fno-common -pipe -fno-common  -fno-defer-pop -fno-omit-frame-pointer  -c dl.c
+gcc -I. -I../.. -I../../. -I../.././ext/dl -DHAVE_DLFCN_H -DHAVE_DLOPEN -DHAVE_DLCLOSE -DHAVE_DLSYM -DHAVE_DLERROR  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -I. -fno-common -g -O2  -fno-common -pipe -fno-common  -fno-defer-pop -fno-omit-frame-pointer  -c handle.c
+gcc -I. -I../.. -I../../. -I../.././ext/dl -DHAVE_DLFCN_H -DHAVE_DLOPEN -DHAVE_DLCLOSE -DHAVE_DLSYM -DHAVE_DLERROR  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -I. -fno-common -g -O2  -fno-common -pipe -fno-common  -fno-defer-pop -fno-omit-frame-pointer  -c ptr.c
+ptr.c: In function ‘rb_dlptr_inspect’:
+ptr.c:461: warning: format ‘%lx’ expects type ‘long unsigned int’, but argument 7 has type ‘struct ptr_data *’
+ptr.c:461: warning: format ‘%lx’ expects type ‘long unsigned int’, but argument 8 has type ‘void *’
+Generating call.func
+  void
+  char
+  short
+  int
+  long
+  float
+  double
+gcc -I. -I../.. -I../../. -I../.././ext/dl -DHAVE_DLFCN_H -DHAVE_DLOPEN -DHAVE_DLCLOSE -DHAVE_DLSYM -DHAVE_DLERROR  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -I. -fno-common -g -O2  -fno-common -pipe -fno-common  -fno-defer-pop -fno-omit-frame-pointer  -c sym.c
+sym.c: In function ‘rb_dlsym_inspect’:
+sym.c:270: warning: format ‘%lx’ expects type ‘long unsigned int’, but argument 6 has type ‘struct sym_data *’
+sym.c:270: warning: format ‘%lx’ expects type ‘long unsigned int’, but argument 7 has type ‘void *’
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/dl.bundle dl.o handle.o ptr.o sym.o -L. -L../.. -L.     -lruby -ldl  -ldl -lobjc  
+mkdir -p ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/import.rb ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/struct.rb ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/types.rb ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/win32.rb ../../.ext/common/dl
+cp dlconfig.h ../../.ext/i686-darwin10.6.0
+cp ../.././ext/dl/dl.h ../../.ext/i686-darwin10.6.0
+compiling etc
+gcc -I. -I../.. -I../../. -I../.././ext/etc -DHAVE_GETLOGIN -DHAVE_GETPWENT -DHAVE_GETGRENT -DHAVE_ST_PW_GECOS -DHAVE_ST_PW_CHANGE -DHAVE_ST_PW_CLASS -DHAVE_ST_PW_EXPIRE -DHAVE_ST_PW_PASSWD -DHAVE_ST_GR_PASSWD -DHAVE_TYPE_UID_T -DPW_UID2VAL=UINT2NUM -DPW_VAL2UID=NUM2UINT -DHAVE_TYPE_GID_T -DPW_GID2VAL=UINT2NUM -DPW_VAL2GID=NUM2UINT  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c etc.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/etc.bundle etc.o -L. -L../.. -L.     -lruby  -ldl -lobjc  
+compiling fcntl
+gcc -I. -I../.. -I../../. -I../.././ext/fcntl -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c fcntl.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/fcntl.bundle fcntl.o -L. -L../.. -L.     -lruby  -ldl -lobjc  
+compiling gdbm
+compiling iconv
+gcc -I. -I../.. -I../../. -I../.././ext/iconv -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c iconv.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/iconv.bundle iconv.o -L. -L../.. -L.     -lruby -liconv  -ldl -lobjc  
+compiling io/wait
+mkdir -p ../../../.ext/i686-darwin10.6.0/io
+gcc -I. -I../../.. -I../../../. -I../../.././ext/io/wait -DFIONREAD_HEADER="<sys/ioctl.h>"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c wait.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i686-darwin10.6.0/io/wait.bundle wait.o -L. -L../../.. -L.     -lruby  -ldl -lobjc  
+mkdir -p ../../../.ext/common/io
+cp ../../.././ext/io/wait/lib/nonblock.rb ../../../.ext/common/io
+compiling nkf
+gcc -I. -I../.. -I../../. -I../.././ext/nkf -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c nkf.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/nkf.bundle nkf.o -L. -L../.. -L.     -lruby  -ldl -lobjc  
+cp ../.././ext/nkf/lib/kconv.rb ../../.ext/common
+compiling openssl
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c openssl_missing.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_asn1.c
+ossl_asn1.c: In function ‘decode_bool’:
+ossl_asn1.c:317: warning: passing argument 2 of ‘d2i_ASN1_BOOLEAN’ from incompatible pointer type
+ossl_asn1.c: In function ‘decode_int’:
+ossl_asn1.c:332: warning: passing argument 2 of ‘d2i_ASN1_INTEGER’ from incompatible pointer type
+ossl_asn1.c: In function ‘decode_enum’:
+ossl_asn1.c:372: warning: passing argument 2 of ‘d2i_ASN1_ENUMERATED’ from incompatible pointer type
+ossl_asn1.c: In function ‘decode_null’:
+ossl_asn1.c:389: warning: passing argument 2 of ‘d2i_ASN1_NULL’ from incompatible pointer type
+ossl_asn1.c: In function ‘decode_obj’:
+ossl_asn1.c:406: warning: passing argument 2 of ‘d2i_ASN1_OBJECT’ from incompatible pointer type
+ossl_asn1.c: In function ‘decode_time’:
+ossl_asn1.c:434: warning: passing argument 2 of ‘d2i_ASN1_TIME’ from incompatible pointer type
+ossl_asn1.c: In function ‘ossl_asn1_decode0’:
+ossl_asn1.c:726: warning: passing argument 1 of ‘ASN1_get_object’ from incompatible pointer type
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_bio.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_bn.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_cipher.c
+ossl_cipher.c: In function ‘ossl_cipher_init’:
+ossl_cipher.c:191: warning: initialization discards qualifiers from pointer target type
+ossl_cipher.c: In function ‘ossl_cipher_update_deprecated’:
+ossl_cipher.c:314: warning: assignment discards qualifiers from pointer target type
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_config.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_digest.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_engine.c
+ossl_engine.c: In function ‘ossl_engine_inspect’:
+ossl_engine.c:347: warning: initialization discards qualifiers from pointer target type
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_hmac.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_ns_spki.c
+ossl_ns_spki.c: In function ‘ossl_spki_initialize’:
+ossl_ns_spki.c:67: warning: passing argument 2 of ‘d2i_NETSCAPE_SPKI’ from incompatible pointer type
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_ocsp.c
+ossl_ocsp.c: In function ‘ossl_ocspreq_initialize’:
+ossl_ocsp.c:114: warning: passing argument 2 of ‘d2i_OCSP_REQUEST’ from incompatible pointer type
+ossl_ocsp.c: In function ‘ossl_ocspres_initialize’:
+ossl_ocsp.c:321: warning: passing argument 2 of ‘d2i_OCSP_RESPONSE’ from incompatible pointer type
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_pkcs12.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_pkcs5.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_pkcs7.c
+ossl_pkcs7.c: In function ‘ossl_pkcs7si_new’:
+ossl_pkcs7.c:89: warning: passing argument 2 of ‘ASN1_dup’ from incompatible pointer type
+ossl_pkcs7.c: In function ‘DupPKCS7SignerPtr’:
+ossl_pkcs7.c:102: warning: passing argument 2 of ‘ASN1_dup’ from incompatible pointer type
+ossl_pkcs7.c: In function ‘ossl_pkcs7ri_new’:
+ossl_pkcs7.c:115: warning: passing argument 2 of ‘ASN1_dup’ from incompatible pointer type
+ossl_pkcs7.c: In function ‘DupPKCS7RecipientPtr’:
+ossl_pkcs7.c:128: warning: passing argument 2 of ‘ASN1_dup’ from incompatible pointer type
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_pkey.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_pkey_dh.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_pkey_dsa.c
+ossl_pkey_dsa.c: In function ‘ossl_dsa_initialize’:
+ossl_pkey_dsa.c:165: warning: passing argument 1 of ‘PEM_ASN1_read_bio’ from incompatible pointer type
+ossl_pkey_dsa.c:165: warning: passing argument 4 of ‘PEM_ASN1_read_bio’ from incompatible pointer type
+ossl_pkey_dsa.c: In function ‘ossl_dsa_to_public_key’:
+ossl_pkey_dsa.c:370: warning: passing argument 2 of ‘ASN1_dup’ from incompatible pointer type
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_pkey_ec.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_pkey_rsa.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_rand.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_ssl.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_ssl_session.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_x509.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_x509attr.c
+ossl_x509attr.c: In function ‘ossl_x509attr_initialize’:
+ossl_x509attr.c:104: warning: passing argument 2 of ‘d2i_X509_ATTRIBUTE’ from incompatible pointer type
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_x509cert.c
+ossl_x509cert.c: In function ‘ossl_x509_inspect’:
+ossl_x509cert.c:693: warning: initialization discards qualifiers from pointer target type
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_x509crl.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_x509ext.c
+ossl_x509ext.c: In function ‘ossl_x509ext_initialize’:
+ossl_x509ext.c:286: warning: passing argument 2 of ‘d2i_X509_EXTENSION’ from incompatible pointer type
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_x509name.c
+ossl_x509name.c: In function ‘ossl_x509name_initialize’:
+ossl_x509name.c:143: warning: passing argument 2 of ‘d2i_X509_NAME’ from incompatible pointer type
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_x509req.c
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_x509revoked.c
+ossl_x509revoked.c: In function ‘ossl_x509revoked_new’:
+ossl_x509revoked.c:48: warning: passing argument 2 of ‘ASN1_dup’ from incompatible pointer type
+ossl_x509revoked.c: In function ‘DupX509RevokedPtr’:
+ossl_x509revoked.c:64: warning: passing argument 2 of ‘ASN1_dup’ from incompatible pointer type
+gcc -I. -I../.. -I../../. -I../.././ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c ossl_x509store.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/openssl.bundle openssl_missing.o ossl.o ossl_asn1.o ossl_bio.o ossl_bn.o ossl_cipher.o ossl_config.o ossl_digest.o ossl_engine.o ossl_hmac.o ossl_ns_spki.o ossl_ocsp.o ossl_pkcs12.o ossl_pkcs5.o ossl_pkcs7.o ossl_pkey.o ossl_pkey_dh.o ossl_pkey_dsa.o ossl_pkey_ec.o ossl_pkey_rsa.o ossl_rand.o ossl_ssl.o ossl_ssl_session.o ossl_x509.o ossl_x509attr.o ossl_x509cert.o ossl_x509crl.o ossl_x509ext.o ossl_x509name.o ossl_x509req.o ossl_x509revoked.o ossl_x509store.o -L. -L../.. -L.     -lruby -lssl -lcrypto  -ldl -lobjc  
+mkdir -p ../../.ext/common/net
+mkdir -p ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/net/ftptls.rb ../../.ext/common/net
+cp ../.././ext/openssl/lib/net/telnets.rb ../../.ext/common/net
+cp ../.././ext/openssl/lib/openssl/bn.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/buffering.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/cipher.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/config.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/digest.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/pkcs7.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/ssl-internal.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/ssl.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/x509-internal.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl/x509.rb ../../.ext/common/openssl
+cp ../.././ext/openssl/lib/openssl.rb ../../.ext/common
+compiling pty
+gcc -I. -I../.. -I../../. -I../.././ext/pty -DHAVE_OPENPTY  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c pty.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/pty.bundle pty.o -L. -L../.. -L.     -lruby -lutil  -ldl -lobjc  
+cp ../.././ext/pty/lib/expect.rb ../../.ext/common
+compiling racc/cparse
+mkdir -p ../../../.ext/i686-darwin10.6.0/racc
+gcc -I. -I../../.. -I../../../. -I../../.././ext/racc/cparse -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c cparse.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../../.ext/i686-darwin10.6.0/racc/cparse.bundle cparse.o -L. -L../../.. -L.     -lruby  -ldl -lobjc  
+compiling readline
+gcc -I. -I../.. -I../../. -I../.././ext/readline -DHAVE_READLINE_READLINE_H -DHAVE_READLINE_HISTORY_H -DHAVE_RL_FILENAME_COMPLETION_FUNCTION -DHAVE_RL_COMPLETION_MATCHES -DHAVE_RL_DEPREP_TERM_FUNCTION -DHAVE_RL_COMPLETION_APPEND_CHARACTER -DHAVE_RL_BASIC_WORD_BREAK_CHARACTERS -DHAVE_RL_COMPLETER_WORD_BREAK_CHARACTERS -DHAVE_RL_COMPLETER_QUOTE_CHARACTERS -DHAVE_RL_ATTEMPTED_COMPLETION_OVER -DHAVE_RL_LIBRARY_VERSION -DHAVE_RL_CLEANUP_AFTER_SIGNAL -DHAVE_REPLACE_HISTORY_ENTRY -DHAVE_REMOVE_HISTORY  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c readline.c
+readline.c: In function ‘rb_remove_history’:
+readline.c:608: warning: passing argument 1 of ‘free’ discards qualifiers from pointer target type
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/readline.bundle readline.o -L. -L../.. -L.     -lruby -lreadline -lncurses  -ldl -lobjc  
+compiling sdbm
+gcc -I. -I../.. -I../../. -I../.././ext/sdbm -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c _sdbm.c
+gcc -I. -I../.. -I../../. -I../.././ext/sdbm -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c init.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/sdbm.bundle _sdbm.o init.o -L. -L../.. -L.     -lruby  -ldl -lobjc  
+compiling socket
+gcc -I. -I../.. -I../../. -I../.././ext/socket -DHAVE_ARPA_INET_H -DENABLE_IPV6 -DINET6 -DHAVE_SIN_LEN -DHAVE_SOCKADDR_STORAGE -DHAVE_SA_LEN  -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_SENDMSG -DHAVE_RECVMSG -DHAVE_ST_MSG_CONTROL -DHAVE_TYPE_STRUCT_ADDRINFO -DHAVE_FREEHOSTENT -DHAVE_FREEADDRINFO -DHAVE_GAI_STRERROR -DGAI_STRERROR_CONST -DHAVE_GETNAMEINFO -DHAVE_GETADDRINFO -DHAVE_TYPE_SOCKLEN_T -DHAVE_SYS_UN_H -DHAVE_SYS_UIO_H -DHAVE_SOCKET -DHAVE_GETIPNODEBYNAME -DHAVE_SOCKETPAIR -DHAVE_GETHOSTNAME  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c socket.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/socket.bundle socket.o -L. -L../.. -L.     -lruby  -ldl -lobjc  
+compiling stringio
+gcc -I. -I../.. -I../../. -I../.././ext/stringio -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c stringio.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/stringio.bundle stringio.o -L. -L../.. -L.     -lruby  -ldl -lobjc  
+compiling strscan
+gcc -I. -I../.. -I../../. -I../.././ext/strscan -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c strscan.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/strscan.bundle strscan.o -L. -L../.. -L.     -lruby  -ldl -lobjc  
+compiling syck
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c bytecode.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c emitter.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c gram.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c handler.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c implicit.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c node.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c rubyext.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c syck.c
+syck.c: In function ‘syck_default_error_handler’:
+syck.c:502: warning: format ‘%d’ expects type ‘int’, but argument 3 has type ‘long int’
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c token.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c yaml2byte.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/syck.bundle bytecode.o emitter.o gram.o handler.o implicit.o node.o rubyext.o syck.o token.o yaml2byte.o -L. -L../.. -L.     -lruby  -ldl -lobjc  
+compiling syslog
+gcc -I. -I../.. -I../../. -I../.././ext/syslog -DHAVE_SYSLOG_H -DHAVE_OPENLOG -DHAVE_SETLOGMASK  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c syslog.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/syslog.bundle syslog.o -L. -L../.. -L.     -lruby  -ldl -lobjc  
+compiling thread
+gcc -I. -I../.. -I../../. -I../.././ext/thread -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -DUSE_MEM_POOLS -fno-common -g -O2  -fno-common -pipe -fno-common   -c thread.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/thread.bundle thread.o -L. -L../.. -L.     -lruby  -ldl -lobjc  
+cp ../.././ext/thread/lib/thread.rb ../../.ext/common
+compiling tk
+*****************************************************************************
+**
+** PTHREAD SUPPORT MODE ERROR: 
+**
+**   Ruby is not compiled with --enable-pthread, but your Tcl/Tk 
+**   library seems to be compiled with pthread support. This
+**   combination may cause frequent hang or segmentation fault
+**   errors when Ruby/Tk is working. We recommend that you NEVER
+**   create the library with such a combination of pthread support.
+**
+**   Please recompile Ruby with the "--enable-pthread" configure option
+**   or recompile Tcl/Tk with the "--disable-threads" configure option.
+**
+*****************************************************************************
+compiling tk/tkutil
+compiling win32ole
+compiling zlib
+gcc -I. -I../.. -I../../. -I../.././ext/zlib -DHAVE_ZLIB_H  -DOS_CODE=OS_UNIX  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2  -fno-common -pipe -fno-common   -c zlib.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o ../../.ext/i686-darwin10.6.0/zlib.bundle zlib.o -L. -L../.. -L.     -lruby -lz  -ldl -lobjc  
+making ruby
+gcc -g -O2  -fno-common -pipe -fno-common    -DRUBY_EXPORT  -L.    main.o  -lruby -ldl -lobjc   -o ruby

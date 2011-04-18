@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+ENV['GEM_HOME']=ENV['GEM_HOME'] || '/Users/hamhei/.rvm/gems/ruby-1.9.1-p431'
+ENV['GEM_PATH']=ENV['GEM_PATH'] || '/Users/hamhei/.rvm/gems/ruby-1.9.1-p431:/Users/hamhei/.rvm/gems/ruby-1.9.1-p431@global'
+ENV['PATH']='/Users/hamhei/.rvm/gems/ruby-1.9.1-p431/bin:/Users/hamhei/.rvm/gems/ruby-1.9.1-p431@global/bin:/Users/hamhei/.rvm/rubies/ruby-1.9.1-p431/bin:' + ENV['PATH']
+
+require 'test/unit'
+Test::Unit.setup_argv {|files|
+  if files.empty?
+    puts "Usage: testrb [options] tests..."
+    exit 1
+  end
+  if files.size == 1
+    $0 = File.basename(files[0])
+  else
+    $0 = files.to_s
+  end
+  files
+}

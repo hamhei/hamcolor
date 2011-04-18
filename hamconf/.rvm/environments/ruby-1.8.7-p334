@@ -1,0 +1,17 @@
+export PATH="/Users/hamhei/.rvm/gems/ruby-1.8.7-p334/bin:/Users/hamhei/.rvm/gems/ruby-1.8.7-p334@global/bin:/Users/hamhei/.rvm/rubies/ruby-1.8.7-p334/bin:/Users/hamhei/.rvm/bin:$PATH"
+rvm_path='/Users/hamhei/.rvm'
+export rvm_path
+RUBY_VERSION='ruby-1.8.7-p334'
+export RUBY_VERSION
+GEM_HOME='/Users/hamhei/.rvm/gems/ruby-1.8.7-p334'
+export GEM_HOME
+GEM_PATH='/Users/hamhei/.rvm/gems/ruby-1.8.7-p334:/Users/hamhei/.rvm/gems/ruby-1.8.7-p334@global'
+export GEM_PATH
+MY_RUBY_HOME='/Users/hamhei/.rvm/rubies/ruby-1.8.7-p334'
+export MY_RUBY_HOME
+IRBRC='/Users/hamhei/.rvm/rubies/ruby-1.8.7-p334/.irbrc'
+export IRBRC
+rvm_ruby_string='ruby-1.8.7-p334'
+export rvm_ruby_string
+unset rvm_gemset_name
+unset MAGLEV_HOME

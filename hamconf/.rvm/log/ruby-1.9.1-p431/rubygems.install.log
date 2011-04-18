@@ -1,0 +1,52 @@
+[2011-03-21 02:40:32] GEM_PATH="/Users/hamhei/.rvm/gems/ruby-1.9.1-p431:/Users/hamhei/.rvm/gems/ruby-1.9.1-p431@global:/Users/hamhei/.rvm/gems/ruby-1.9.1-p431@global" GEM_HOME="/Users/hamhei/.rvm/gems/ruby-1.9.1-p431" "/Users/hamhei/.rvm/rubies/ruby-1.9.1-p431/bin/ruby" "/Users/hamhei/.rvm/src/rubygems-1.6.2/setup.rb"
+Error loading gem paths on load path in gem_prelude
+can't modify frozen string
+<internal:gem_prelude>:69:in `force_encoding'
+<internal:gem_prelude>:69:in `set_home'
+<internal:gem_prelude>:38:in `dir'
+<internal:gem_prelude>:76:in `set_paths'
+<internal:gem_prelude>:47:in `path'
+<internal:gem_prelude>:286:in `push_all_highest_version_gems_on_load_path'
+<internal:gem_prelude>:355:in `<compiled>'
+RubyGems 1.6.2 installed
+
+﻿=== 1.6.2 / 2011-03-08
+
+Bug Fixes:
+
+* require of an activated gem could cause activation conflicts.  Fixes
+  Bug #29056 by Dave Verwer.
+* `gem outdated` now works with up-to-date prerelease gems.
+
+
+------------------------------------------------------------------------------
+
+RubyGems installed the following executables:
+	/Users/hamhei/.rvm/rubies/ruby-1.9.1-p431/bin/gem
+
+[2011-03-21 02:40:32] GEM_PATH="/Users/hamhei/.rvm/gems/ruby-1.9.1-p431:/Users/hamhei/.rvm/gems/ruby-1.9.1-p431@global:/Users/hamhei/.rvm/gems/ruby-1.9.1-p431@global" GEM_HOME="/Users/hamhei/.rvm/gems/ruby-1.9.1-p431" "/Users/hamhei/.rvm/rubies/ruby-1.9.1-p431/bin/ruby" "/Users/hamhei/.rvm/src/rubygems-1.6.2/setup.rb"
+Error loading gem paths on load path in gem_prelude
+can't modify frozen string
+<internal:gem_prelude>:69:in `force_encoding'
+<internal:gem_prelude>:69:in `set_home'
+<internal:gem_prelude>:38:in `dir'
+<internal:gem_prelude>:76:in `set_paths'
+<internal:gem_prelude>:47:in `path'
+<internal:gem_prelude>:286:in `push_all_highest_version_gems_on_load_path'
+<internal:gem_prelude>:355:in `<compiled>'
+RubyGems 1.6.2 installed
+
+﻿=== 1.6.2 / 2011-03-08
+
+Bug Fixes:
+
+* require of an activated gem could cause activation conflicts.  Fixes
+  Bug #29056 by Dave Verwer.
+* `gem outdated` now works with up-to-date prerelease gems.
+
+
+------------------------------------------------------------------------------
+
+RubyGems installed the following executables:
+	/Users/hamhei/.rvm/rubies/ruby-1.9.1-p431/bin/gem
+

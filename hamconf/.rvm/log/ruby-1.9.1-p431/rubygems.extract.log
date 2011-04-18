@@ -1,0 +1,1 @@
+[2011-03-21 02:40:32] gunzip < /Users/hamhei/.rvm/archives/rubygems-1.6.2.tgz | tar xf - -C /Users/hamhei/.rvm/src

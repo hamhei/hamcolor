@@ -1,0 +1,1 @@
+[2011-03-21 02:42:32] bunzip2 < '/Users/hamhei/.rvm/archives/ruby-1.8.7-p334.tar.bz2' | tar xf - -C /Users/hamhei/.rvm/tmp/rvm_src_64410

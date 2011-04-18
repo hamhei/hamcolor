@@ -1,0 +1,16 @@
+/var/www/rms/gadgetbox/home/gadget.xml
+/var/www/rms/gadgetbox/home/#gadget.xml#
+/var/www/rms/gadgetbox/home/html/home.html
+/var/www/rms/gadgetbox/home/html/#home.html#
+/var/lib/tomcat6/webapps/ROOT/gadgets/files/sandbox/index.html
+/var/lib/tomcat6/webapps/ROOT/gadgets/files/sandbox/#index.html#
+/var/lib/tomcat6/webapps/ROOT/gadgets/files/sandbox/js/local/rms.js
+/var/lib/tomcat6/webapps/ROOT/gadgets/files/sandbox/js/local/#rms.js#
+/var/www/rms/gadgetbox/home/js/option/home.js
+/var/www/rms/gadgetbox/home/js/option/#home.js#
+/var/lib/tomcat6/webapps/ROOT/gadgets/files/sandbox/js/global/conf.js
+/var/lib/tomcat6/webapps/ROOT/gadgets/files/sandbox/js/global/#conf.js#
+/var/www/rms/gadgetbox/check_inventory/gadget.xml
+/var/www/rms/gadgetbox/check_inventory/#gadget.xml#
+/var/www/rms/api/conf_gadgets.php
+/var/www/rms/api/#conf_gadgets.php#

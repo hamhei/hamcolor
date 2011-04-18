@@ -1,0 +1,1 @@
+[2011-03-21 02:35:41] bunzip2 < '/Users/hamhei/.rvm/archives/ruby-1.9.1-p431.tar.bz2' | tar xf - -C /Users/hamhei/.rvm/tmp/rvm_src_49596

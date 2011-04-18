@@ -1,0 +1,20 @@
+[2011-03-21 02:40:33] '/Users/hamhei/.rvm/scripts/gemsets' initial # under ruby-1.9.1-p431
+Importing initial gemsets for ruby-1.9.1-p431.
+paths: /Users/hamhei/.rvm/gemsets /Users/hamhei/.rvm/gemsets/ruby /Users/hamhei/.rvm/gemsets/ruby/1.9.1 /Users/hamhei/.rvm/gemsets/ruby/1.9.1/p431
+
+Installing gems listed in /Users/hamhei/.rvm/gemsets/default.gems file...
+
+installing rake ...
+rake  installed.
+
+Processing of /Users/hamhei/.rvm/gemsets/default.gems is complete.
+
+
+Installing gems listed in /Users/hamhei/.rvm/gemsets/global.gems file...
+
+installing rake ...
+rake  installed.
+
+Processing of /Users/hamhei/.rvm/gemsets/global.gems is complete.
+
+Installation of gems for ruby-1.9.1-p431 is complete.
